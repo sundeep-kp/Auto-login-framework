@@ -1,33 +1,15 @@
 # Auto-login-framework
-Currently constructed especially for cyberoam login for IIITnr internet portal. May develop into a multi tool later on.
+<p>Currently constructed especially for cyberoam login for IIITnr internet portal. May develop into a multi tool later on.</p>
 
 
 
+<p>Instructions to install :-</p> 
 
 
+<p>Make sure you download this entire directory:-</p> 
 
 
-
-
-
-
-Instructions to install :- 
-
-
-
-
-
-
-
-
-
-
-Make sure you download this entire directory:- 
-
-
-
-
-it should include these files:- cyberoam-autologin/
+<p>it should include these files:- cyberoam-autologin/</p>
 
 ├── install.sh                 # installer script (sets up everything)
 
