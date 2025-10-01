@@ -28,26 +28,37 @@ Right click and **run `install.sh` as a program** or from your terminal.
 <br>
 ### Note:-
 <br>
+<br>
+<br>
 *Bhai, aur kuchh suggestions hai to bata dena merko, bas 150 rupiya lega mai.*  
 *You may provide me with suggestions for the project.*
 <br>
+<br>
 ---
 <br>
+<br>
 Optional settings-
+<br>
 #if you don't want any pop ups , change this setting to true (search using ctrl+f inside the cyberoam-login.js file) :- 
 headless: false
 <br>
+<br>
 ### If stuff doesn't work, try these out:
+<br>
 <br>
 #Make `install.sh` executable:
 <br>
-bash
+<br>
+Paste this in the terminal:-
+<br>
 <br>
 chmod +x install.sh
 - Make sure your **`cyberoam-login.js`** is okay using the **system-installed Chrome/Chromium**  
   *(usually `/usr/bin/chromium-browser` or `/usr/bin/google-chrome`)*.
 <br>
+<br>
  #Edit the part that says:
+<br>
 <br>
 js<br>
 const BROWSER_PATHS = [ <br>
@@ -57,7 +68,9 @@ const BROWSER_PATHS = [ <br>
   '/usr/bin/google-chrome',<br>
   '/snap/bin/chromium' <br>
 ]; <br>
+<br>
 If Puppeteer can’t find it, then you specify the path in executablePath when launching: <br>
+<br>
 <br>
 const browser = await puppeteer.launch({ <br>
   headless: false <br>
