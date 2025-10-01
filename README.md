@@ -1,9 +1,10 @@
-# Auto-login-framework
+# Auto-login-framework V-alpha
 
 Currently constructed **especially for Cyberoam login for IIITnr internet portal**.  
 *May develop into a multi-tool later on… who knows.*
 <br>
 {currently supported only for linux, windows support soon...}
+{undergoing testing}
 ---
 <br>
 ## Instructions to Install
