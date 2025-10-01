@@ -1,81 +1,70 @@
 # Auto-login-framework
-<p>Currently constructed especially for cyberoam login for IIITnr internet portal. 
-May develop into a multi tool later on.</p>
 
+Currently constructed **especially for Cyberoam login for IIITnr internet portal**.  
+*May develop into a multi-tool later on… who knows.*
+
+---
+
+## Instructions to Install
+
+Make sure you **download this entire directory**:
 <br>
-<br>
-<p>Instructions to install :-</p> 
-
-
-<p>Make sure you download this entire directory:-</p> 
-<br>
-<br>
-
-<p>it should include these files:- cyberoam-autologin/</p>
-
-├── install.sh                 # installer script (sets up everything)
-
-├── uninstall.sh               # removes files, disables timer/service
-
-├── cyberoam-login.js          # main Node.js autologin script
-
-├── cyberoam-login.service     # systemd service unit
-
-├── cyberoam-login.timer       # systemd timer unit
-
-<br>
+cyberoam-autologin/
+├── install.sh # installer script (sets up everything)
+├── uninstall.sh # removes files, disables timer/service)
+├── cyberoam-login.js # main Node.js autologin script
+├── cyberoam-login.service # systemd service unit
+├── cyberoam-login.timer # systemd timer unit
 <br>
 <br>
 
-the last three files will be automatically copied/moved to their required location. 
-<br>You don't have to touch a damn thing (trust me :D)
+The last three files will be **automatically copied/moved to their required locations**.  
+*You don’t have to touch a damn thing (trust me :D).*
 
-<br>
-<br>
-right click and run the install.sh as a program or from your terminal .
+Right click and **run `install.sh` as a program** or from your terminal.
 
-<br>
-<br>
-<br>
-<br>
+---
 
-Note :- Bhai aur kuchh suggestions hai to bata dena merko, bas 150 rupiya lega mai 
-You may provide me with suggestions for the project
+### Note:-
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+*Bhai, aur kuchh suggestions hai to bata dena merko, bas 150 rupiya lega mai.*  
+*You may provide me with suggestions for the project.*
 
+---
 
-If stuff don't work try these out:-
-<br>
-<br>
+Optional settings-
+#if you don't want any pop ups , change this setting to true (search using ctrl+f inside the cyberoam-login.js file) :- 
+headless: false
 
-#chmod +x install.sh 
-<br>
-(may do the same thing to all files even though that's parabobly overkill)
-<br>
-<br>
-<br>
-#Make sure you have entered the correct userid and password (as for as i know its probably userid:yourname2X101@iiitnr.edu.in and password:Test@1234)
-<br>
-<br>
-#Make sure your cyberoam-login.js is either okay using the system-installed Chrome/Chromium (usually /usr/bin/chromium-browser or /usr/bin/google-chrome).
-edit in the part that says const BROWSER_PATHS = [
+### If stuff doesn't work, try these out:
+
+#Make `install.sh` executable:
+
+bash
+
+chmod +x install.sh
+- Make sure your **`cyberoam-login.js`** is okay using the **system-installed Chrome/Chromium**  
+  *(usually `/usr/bin/chromium-browser` or `/usr/bin/google-chrome`)*.
+
+ #Edit the part that says:
+
+js
+const BROWSER_PATHS = [
   '/usr/bin/chromium-browser',
   '/usr/bin/chromium',
   '/usr/bin/google-chrome-stable',
   '/usr/bin/google-chrome',
   '/snap/bin/chromium'
-<br>
-<br>
+];
 If Puppeteer can’t find it, then you specify the path in executablePath when launching:
-<br>
-<br>
-<br>
-<br>
-You may add your current browser that you are using (brave, vivaldi, edge etc. although they should work given the chromium framework, 
-but I dunno , I chatgpted the entire code who am I to judge)
+
+const browser = await puppeteer.launch({
+  headless: false
+  executablePath: '/usr/bin/chromium-browser' // adjust as needed
+});
+
+
+You may add your current browser (Brave, Vivaldi, Edge, etc.)
+(they should work given the Chromium framework, but I dunno — I ChatGPT-ed the entire code, who am I to judge 😅)
+
+
