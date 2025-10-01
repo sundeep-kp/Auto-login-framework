@@ -3,17 +3,12 @@
 
 <br>
 <br>
-<br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-<br>
 <p>Instructions to install :-</p> 
 
 
 <p>Make sure you download this entire directory:-</p> 
-
+<br>
+<br>
 
 <p>it should include these files:- cyberoam-autologin/</p>
 
@@ -27,58 +22,46 @@
 
 ├── cyberoam-login.timer       # systemd timer unit
 
-
-
-
-
-
+<br>
+<br>
+<br>
 
 the last three files will be automatically copied/moved to their required location. 
 You don't have to touch a damn thing (trust me :D)
 
-
-
-
-
-
+<br>
+<br>
 right click and run the install.sh as a program or from your terminal .
 
-
-
-
-
-
-
-
-
+<br>
+<br>
+<br>
+<br>
 
 Note :- Bhai aur kuchh suggestions hai to bata dena merko, bas 150 rupiya lega mai 
 You may provide me with suggestions for the project
 
-
-
-
-
-
-
-
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 If stuff don't work try these out:-
-
-
+<br>
+<br>
 
 #chmod +x install.sh 
-
+<br>
 (may do the same thing to all files even though that's parabobly overkill)
-
-
-
+<br>
+<br>
+<br>
 #Make sure you have entered the correct userid and password (as for as i know its probably userid:yourname2X101@iiitnr.edu.in and password:Test@1234)
-
-
-
+<br>
+<br>
 #Make sure your cyberoam-login.js is either okay using the system-installed Chrome/Chromium (usually /usr/bin/chromium-browser or /usr/bin/google-chrome).
 edit in the part that says const BROWSER_PATHS = [
   '/usr/bin/chromium-browser',
@@ -86,11 +69,12 @@ edit in the part that says const BROWSER_PATHS = [
   '/usr/bin/google-chrome-stable',
   '/usr/bin/google-chrome',
   '/snap/bin/chromium'
-
-
+<br>
+<br>
 If Puppeteer can’t find it, then you specify the path in executablePath when launching:
-
-
-
+<br>
+<br>
+<br>
+<br>
 You may add your current browser that you are using (brave, vivaldi, edge etc. although they should work given the chromium framework, 
 but I dunno , I chatgpted the entire code who am I to judge)
