@@ -1,5 +1,6 @@
 # Auto-login-framework
-<p>Currently constructed especially for cyberoam login for IIITnr internet portal. May develop into a multi tool later on.</p>
+<p>Currently constructed especially for cyberoam login for IIITnr internet portal. 
+May develop into a multi tool later on.</p>
 
 <br>
 <br>
@@ -27,7 +28,7 @@
 <br>
 
 the last three files will be automatically copied/moved to their required location. 
-You don't have to touch a damn thing (trust me :D)
+<br>You don't have to touch a damn thing (trust me :D)
 
 <br>
 <br>
