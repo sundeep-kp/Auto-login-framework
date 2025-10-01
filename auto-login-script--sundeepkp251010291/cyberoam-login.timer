@@ -1,0 +1,12 @@
+[Unit]
+Description=Run Cyberoam login script every 2 minutes
+Requires=cyberoam-login.service
+
+[Timer]
+OnBootSec=30s
+OnUnitActiveSec=2min
+Unit=cyberoam-login.service
+
+[Install]
+WantedBy=timers.target
+
