@@ -8,7 +8,11 @@ Currently constructed **especially for Cyberoam login for IIITnr internet portal
 <br>
 ## Instructions to Install
 <br>
+
 Make sure you **download this entire directory**:
+<br>
+just gitclone this stuff (usme toh sab hi expert hain):
+git clone https://github.com/sundeep-kp/Auto-login-framework.git
 <br>
 cyberoam-autologin/
 ├── install.sh # installer script (sets up everything) <br>
