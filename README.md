@@ -8,7 +8,7 @@ Currently constructed **especially for Cyberoam login for IIITnr internet portal
 ---
 <br>
 #V-2.0
-<h1>IIIT-NR Cyberoam Auto-Login (V2.0)</h1>h1>
+<h1>IIIT-NR Cyberoam Auto-Login (V2.0)</h1>
 
 This project provides a simple <b>Linux watchdog script</b> (<code>toggle-portal.sh</code>) and an installer (<code>install.sh</code>) to keep you logged in to the Cyberoam captive portal automatically.<br><br>
 
