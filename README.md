@@ -1,7 +1,8 @@
 # Auto-login-framework
-<p help me buy a guitar align="center">
+<p align="center">
   <img src="Screenshot_2025-10-05-21-41-00-21_e4c1cb095b567267d5d1f8fb96ab0b79.jpg" width="200" alt="Support QR">
 </p>
+help me buy a guitar
 <p align="center"><b>UPI:</b> sundeep@upi</p
 Currently constructed **especially for Cyberoam login for IIITnr internet portal**.  
 *May develop into a multi-tool later on… who knows.*
